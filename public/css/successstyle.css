@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-color:  #FFEBC9;
+}
+
+.check{
+    background-color: aquamarine;
+    border-radius: 7.5px 7.5px 7.5px 7.5px;
+    color: black;
+    border-width: 1px 1px 1px 1px;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    z-index: 10;
+}

@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #FFEBC9;
+    color: black;
+}
+
+.tryagain{
+    background-color: aquamarine;
+    border-radius: 7.5px 7.5px 7.5px 7.5px;
+    color: black;
+    border-width: 1px 1px 1px 1px;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    z-index: 10;
+}
