@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/successstyle.css">
+    <title>Weather</title>
+</head>
+<body>
+    <h1>Temperature in <%= viewCityName %> is <%= viewTemp %> degrees centigrade</h1>
+    <p>Feels like <%= feelsLike %> degrees</p>
+    <p>Humidity is <%= viewHumidity %></p>
+    <p><%= viewDescription %> </p>
+    <img src="http://openweathermap.org/img/wn/<%=viewIcon%>@2x.png" alt="currentinfoimage">
+    <form action="/success" method="POST">
+        <button class="check" type="submit">Check again</button>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Js/format.js"></script>
+</body>
+</html>
