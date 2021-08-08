@@ -1,0 +1,5 @@
+This is a simple weather app written using node+express, ejs, html and css. On the back end it connects to Open weather map api and renders the results.
+
+This application is deployed to web using heroku. Please access it at - https://protected-cliffs-80195.herokuapp.com/
+
+On the root page, there is a text input field for city name. Enter city name and hit Check weather.
